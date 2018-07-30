@@ -1,6 +1,8 @@
-import Ember from 'ember';
+import Controller from '@ember/controller';
+import PromiseProxyMixin from '@ember/object/promise-proxy-mixin';
+import $ from 'jquery';
 
-export default Ember.Controller.extend(Ember.PromiseProxyMixin, {
+export default Controller.extend(PromiseProxyMixin, {
   page: 0,
 
   actions: {

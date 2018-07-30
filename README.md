@@ -33,11 +33,11 @@ All options, excluding `color` and `theme` related to the addon, are documented 
 ```javascript
 var ENV = {
   pace: {
-  
+
     // addon-specific options to configure theme
     theme: 'minimal',
     color: 'blue',
-    
+
     // pace-specific options
     // learn more on http://github.hubspot.com/pace/#configuration
     //           and https://github.com/HubSpot/pace/blob/master/pace.coffee#L1-L72
@@ -84,8 +84,7 @@ More details on Pace events, methods and configuration could be found on http://
 ## Developing ember-cli-pace
 
 * `git clone` this repository
-* `npm install`
-* `bower install`
+* `yarn install`
 * `ember server`
 * Visit your app at http://localhost:4200.
 
